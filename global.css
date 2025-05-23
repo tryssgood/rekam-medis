@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Cal Sans', sans-serif;
+}
+.background {
+  background-image: url('img/rumahsakit.png');
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.bg-primary{
+    background-color: #537D5D;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+li.me{
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+    padding: 10px;
+}
+
+.foot{
+    background-color: #D2D0A0;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    background-color: #73946B;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color: #BBD8A3;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: whitesmoke;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    position: right;
+}
+
+.log{
+    margin: auto;
+}
+
+.foot p {
+    color: #000;
+}
